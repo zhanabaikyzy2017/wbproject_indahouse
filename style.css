@@ -44,3 +44,95 @@
     left:15%;
     border-radius: 10px;
 }
+.products{
+
+    position: absolute;
+    margin:auto;
+    top:25%;
+    border:1px solid black;
+    height:40%;
+    width:94%;
+    left:3%;
+    border-radius: 10px;
+}
+
+.prev, .next{
+    cursor:pointer;
+    position: absolute;
+    top:30%;
+    width:auto;
+    margin-top:22px;
+    padding:16px;
+    color:black;
+    font-weight:bold;
+    font-size: 18px;
+    transition:0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select:none;
+}
+.next{
+    position: absolute;
+    left:1173px;
+    border-radius:3px 0 0 3px;
+}
+.prev:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+.next:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+.text{
+    color:#f2f2f2;
+    font-size:15px;
+    padding:8px 12px;
+    position: absolute;
+    bottom:8px;
+    width:100%;
+    text-align: center;
+}
+.numberofProduct{
+    color:#f2f2f2;
+    font-size:12px;
+    padding:8px 12px;
+    position: absolute;
+    top:50px;
+}
+/* .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top:28%;
+  } */
+.specialists{
+    position: absolute;
+    border:1px solid black;
+    top:70%;
+    width:90%;
+    height:27%;
+    left:4.5%;
+    border-radius:10px;
+}
+/* .active, .dot:hover{
+    background-color: #717171;
+} */
+.fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name:fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
