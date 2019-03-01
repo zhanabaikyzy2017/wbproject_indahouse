@@ -82,7 +82,7 @@
     background-color:rgba(0,0,0,0.8);
 }
 .text{
-    color:#f2f2f2;
+    color:black;
     font-size:15px;
     padding:8px 12px;
     position: absolute;
@@ -120,28 +120,79 @@
 /* .active, .dot:hover{
     background-color: #717171;
 } */
-.fade{
-    -webkit-animation-name:fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name:fade;
-    animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  .myProduct{
+
+
+   .myProduct{
       display: none;
-  }
+  } 
 
   .nameof{
       position:absolute;
       color:white;
       left:10%;
   }
-
+  @keyframes products{
+      0%{
+          left:0;
+      }
+      20% {
+        left: 0;
+    }
+    
+    25% {
+        left: -100%;
+    }
+    
+    45% {
+        left: -100%;
+    
+    }
+    
+    50% {
+            left: -200%;
+    
+    }
+    
+    70% {
+        left: -200%;
+    }
+    
+    75% {
+        left: -300%;
+    }
+    
+    95% {
+        left: -300%;
+    }
+    
+    100% {
+        left: -400%;
+    
+    }
+  }
+  .products{
+      overflow:hidden;
+  }
+  .figures{
+      position: absolute;
+      border:1px solid black;
+      width:30%;
+      height: 70%;
+      top:15%;
+      left:35%;
+      overflow: hidden;
+  }
+  .products figure img{
+      width:20%;
+      float:left;
+  }
+  .products figure{
+      position: relative;
+      width:500%;
+      margin:0;
+      left:0;
+      text-align:center;
+      font-size: 0;
+      animation:20s products infinite;
+  }
+  
