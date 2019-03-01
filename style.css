@@ -3,7 +3,7 @@
     position: absolute;
     height:10%;
     width:100%;
-    background-color:rgba(16, 33, 129,0.7);
+    background-color:rgba(8, 16, 61, 0.836);
 
 }
 .main{
@@ -19,13 +19,13 @@
     top:91%;
     width:100%;
     height: 10%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(26, 80, 87, 0.774);
 }
 .left{
     position:relative;
     width:85%;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .right{
     position: absolute;
@@ -33,7 +33,7 @@
     left:85%;
     height:100%;
     width:15%;
-    background-color: cadetblue;
+    background-color: rgba(110, 199, 194, 0.829);
 }
 .animation{
     position: absolute;
@@ -91,11 +91,11 @@
     text-align: center;
 }
 .numberofProduct{
-    color:#f2f2f2;
+    color:black;
     font-size:12px;
     padding:8px 12px;
     position: absolute;
-    top:50px;
+    top:30px;
 }
 /* .dot {
     cursor: pointer;
@@ -134,5 +134,14 @@
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+  }
+  .myProduct{
+      display: none;
+  }
+
+  .nameof{
+      position:absolute;
+      color:white;
+      left:10%;
   }
 
